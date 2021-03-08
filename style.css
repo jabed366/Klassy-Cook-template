@@ -1,0 +1,530 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Poppins', sans-serif;
+}
+/* header start */
+
+header {
+}
+header .logo {
+    line-height: 96px;
+    display: ink;
+}
+header .logo img {
+    /*! line-height: 25px; */ /*! display: inline-block; */
+}
+header ul {
+}
+header ul li {
+    position: relative;
+}
+header ul li a {
+    font-size: 15px;
+    line-height: 87px;
+    font-weight: 600;
+    color: #111;
+    ont-family: 'Poppins', sans-serif;
+}
+header ul li a:hover {
+    color: #fb5849;
+}
+header ul li ul {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(125px);
+    transition: .4s;
+    z-index: 99;
+    
+}
+header ul li:hover ul {
+   
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(20px);
+    
+}
+header ul li ul li {
+    background: rgb(247,247,247);
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+header ul li ul li a {
+    text-decoration: none;
+    display: block;
+    height: 41px; /*! padding-top: -2px; */
+    line-height: 45px;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    color: #2a2a2a;
+}
+header ul li ul li:hover a {
+    color: #fb5849;
+    background-color: rgb(252,252,252);
+    /* transform: translateX(5px); */
+    margin-left: 5px;
+    transition: .4s;
+}
+/* header end */
+
+/* carusel start */
+.carusel{}
+.carusel-left-content .carusel-content{
+    position: relative;
+    top: 50%;
+}
+.carusel-left-content{
+    background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/top-left-bg.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.carusel-left-content h4{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 54px;
+}
+.carusel-left-content h6{
+
+}
+.carusel-left-content a{
+    background-color: white;
+    padding: 10px 20px;
+    color: #fb5849;
+    font-weight: 500;
+}
+
+
+button span .previous-icon{
+    width: 30px ;
+    height: 30px;
+    background-color: #fb5849;
+}
+button span .next--icon{}
+
+.carousel-control-prev-icon.previous-icon {
+   
+    width: 50px;
+    height: 50px;
+    background-color: #fb5849;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 80px;
+    color: #FFF;
+    opacity: 1;
+}
+.carousel-control-next-icon.next-icon {
+   
+    width: 50px;
+    height: 50px;
+    background-color: #fb5849;
+    padding: 10px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 80px;
+    color: #FFF;
+  
+    opacity: 1;
+} 
+
+/* .about-us csss */
+.about-us{
+    margin-top: 100px;
+}
+.about-us .video-content{}
+.video-content h5{
+    color: #fb5849;
+margin-left: 44px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-size: 16px;
+}
+.video-content h5::before{
+    content: "";
+width: 34px;
+height: 1px;
+background-color: #fb5849;
+display: block;
+position: relative;
+top: 11px;
+left: -40px;
+}
+.about-us .video-content h2{
+    
+    font-weight: 800;
+}
+.about-us .video-content p{}
+.about-us .video-item {
+    background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-video-bg.jpg");
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.about-us .video-item span {
+    width: 80px;
+    height: 80px;
+    background: #fb5849;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    position: relative;
+    top: 50%;
+    left: 46%;
+}
+
+/* our-menu css start */
+
+        
+
+
+
+/* our-menu css start */
+.video-content h5{
+  color: #fb5849;
+margin-left: 44px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-size: 16px;
+}
+.video-content h5::before{
+  content: "";
+width: 34px;
+height: 1px;
+background-color: #fb5849;
+display: block;
+position: relative;
+top: 11px;
+left: -40px;
+}
+.about-us .video-content h2{
+  
+  font-weight: 800;
+}
+
+
+.video-content.food-content-with {
+    padding-left: 290px;
+}
+
+.our-menu{
+  background-color: #fffafa;
+  padding: 100px 0px;
+}
+.our-menu .menu-item1{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-01.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .menu-item2{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-02.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .menu-item3{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-03.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .menu-item4{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-04.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .menu-item5{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-05.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .menu-item6{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-02.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .menu-item7{
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-01.jpg");
+  padding: 200px 0px;
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  background-repeat: no-repeat;
+}
+.our-menu .direction span{
+  color: #fb5849;
+  font-size: 22px;
+  margin-left: 15px;
+  font-weight: 200;
+  position: relative;
+  top: -71px;
+}
+.menu-item{
+  position: relative;
+}
+.our-menu .menu-item .menu-price  h4{
+  position: absolute;
+top: 0;
+left: 0;
+background: #fb5849;
+width: 76px;
+height: 76px;
+line-height: 78px;
+text-align: center;
+color: white;
+font-weight: 800;
+border-radius: 5px;
+}
+.our-menu .menu-item .menu-price .menu-price-content {
+ color: white;
+  position: absolute;
+  background-color: #fb5849;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 14%;
+  transition: .4s;
+}
+.our-menu .menu-item:hover .menu-price-content {
+  opacity: 1;
+  height: 50%;
+  transition: .4s;
+
+}
+
+.our-menu .direction span{
+  color: #fb5849;
+font-size: 22px;
+margin-left: 18px;
+font-weight: 200;
+position: relative;
+top: 49px;
+}
+
+/* our menu css end */
+.our-chefs{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
+}
+.our-chefs h2{
+  font-weight: 800;
+  
+}
+.our-chefs h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  
+}
+.col-xl-4.our-chef{
+    border: 1px solid black;
+    width: 408px;
+    margin: auto;
+    margin-left: 24px;
+
+   
+}
+.our-chefs img{
+    width: 100%;
+    height: auto;
+    margin-top: 4px;
+    border-radius: 2px;
+    
+}
+.our-chef .img-chefs-staff {
+    position: relative;
+    
+}
+.our-chef .social-icon-link span {
+    background: #fff;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    position: relative;
+    top: 50%;
+
+}
+
+
+.our-chef .social-icon-link {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 98%;
+    opacity: 0;
+    transition: .6;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align:center; */
+
+}
+.our-chef:hover .social-icon-link {
+    opacity: 1;
+}
+.our-chef:hover h2 {
+    color:#fb5849 ;
+}
+.our-chef:hover {
+    border: 1px solid #fb5849;
+}
+.our-chefs .content{
+    text-align: center;
+}
+.our-chefs .content h2{
+    font-weight: 600;
+}
+.our-chefs .content p{}
+
+/* contact-us css start */
+.contact-us{
+    background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg");
+    padding: 200px 0px;
+}
+.card{
+    background: #fff;
+}
+.card-body span{
+    width: 80px;
+    height: 80px;
+    background: #fb5849;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    position: relative;
+    top: -52px;
+    left: 9px;
+}
+.card button{
+    width: 100%;
+    font-weight: 500;
+    background: #fb5849;
+    color: white;
+    padding: 10px 0px;
+}
+.card button .btn{}
+
+/* contact-us css start */
+.contact-us{
+    margin-top: 100px;
+}
+.video-content{}
+.contact-us .video-content h5:before{
+    content: "";
+    width: 34px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    top: 11px;
+    left: -40px;
+}
+.video-content h2{}
+.video-content p{}
+/* meals offers css start */
+.meals-offer{
+    margin-top: 100px;
+}
+.meals-offer h5{}
+.meals-offer .fw-bol{
+    font-weight: 800;
+}
+.meals-times{}
+.meals-time img{
+    display: inline-block;
+    border-radius: 4px;
+}
+.meals-time h5{}
+.food-items h4{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.food-items h6{
+    background: #fb5849;
+    width:70px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.food-items p{
+    font-family: 'Poppins', sans-serif;
+}
+.food-items .price{
+    padding-top: 12px;
+}
+.food-items .food-content{
+    padding-left: 25px;
+}
+
+
+/* meals offers ccss end */
+
+
+/* footer-start  css start*/
+footer{
+    background-color: #fb5849;
+}
+footer .col-xl-4.footer-icon span{
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: inline-block;
+    color: #fb5849;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 7px;
+    font-size: 20px;
+}
+footer img{}
+footer p{
+    font-size: 17px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    text-align: right;
+}
